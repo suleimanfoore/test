@@ -22,7 +22,7 @@ def noop_1(action=None, success=None, container=None, results=None, handle=None,
     phantom.debug("noop_1() called")
 
     ################################################################################
-    # uI change with python - 4
+    # ..
     ################################################################################
 
     parameters = [{}]
