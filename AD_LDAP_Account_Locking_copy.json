@@ -52,7 +52,7 @@
                     "targetPort": "4_in"
                 }
             ],
-            "hash": "732595dc155a58ef5d12b3104904aa7b3237d745",
+            "hash": "07923ae0f78d7ce989410da29efcec00ece85181",
             "nodes": {
                 "0": {
                     "data": {
@@ -68,7 +68,7 @@
                     "type": "start",
                     "warnings": {},
                     "x": 19.999999999999986,
-                    "y": -6.394884621840902e-14
+                    "y": -1.2789769243681803e-13
                 },
                 "1": {
                     "data": {
@@ -145,6 +145,15 @@
                         "functionId": 1,
                         "functionName": "disable_user_account",
                         "id": "3",
+                        "loop": {
+                            "enabled": false,
+                            "exitAfterUnit": "m",
+                            "exitAfterValue": 10,
+                            "exitConditionEnabled": false,
+                            "exitLoopAfter": 2,
+                            "pauseUnit": "m",
+                            "pauseValue": 2
+                        },
                         "parameters": {
                             "use_samaccountname": true,
                             "user": "filtered-data:username_filter:condition_1:playbook_input:user"
@@ -269,10 +278,10 @@
         "playbook_trigger": "artifact_created",
         "playbook_type": "data",
         "python_version": "3",
-        "schema": "5.0.10",
-        "version": "6.0.1.123902"
+        "schema": "5.0.12",
+        "version": "6.2.2.134"
     },
-    "create_time": "2024-10-23T07:02:09.992109+00:00",
+    "create_time": "2024-10-23T07:04:31.321966+00:00",
     "draft_mode": false,
     "labels": [
         "*"

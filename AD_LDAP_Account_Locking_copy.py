@@ -18,7 +18,7 @@ def on_start(container):
     return
 
 @phantom.playbook_block()
-def username_filter(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, **kwargs):
+def username_filter(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, loop_state_json=None, **kwargs):
     phantom.debug("username_filter() called")
 
     ################################################################################
@@ -42,7 +42,7 @@ def username_filter(action=None, success=None, container=None, results=None, han
 
 
 @phantom.playbook_block()
-def disable_user_account(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, **kwargs):
+def disable_user_account(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, loop_state_json=None, **kwargs):
     phantom.debug("disable_user_account() called")
 
     # phantom.debug('Action: {0} {1}'.format(action['name'], ('SUCCEEDED' if success else 'FAILED')))
@@ -79,7 +79,7 @@ def disable_user_account(action=None, success=None, container=None, results=None
 
 
 @phantom.playbook_block()
-def username_observables(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, **kwargs):
+def username_observables(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, loop_state_json=None, **kwargs):
     phantom.debug("username_observables() called")
 
     ################################################################################
@@ -124,7 +124,7 @@ def username_observables(action=None, success=None, container=None, results=None
 
 
 @phantom.playbook_block()
-def filter_disable_account(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, **kwargs):
+def filter_disable_account(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, loop_state_json=None, **kwargs):
     phantom.debug("filter_disable_account() called")
 
     ################################################################################
