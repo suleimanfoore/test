@@ -21,7 +21,7 @@
                     "targetPort": "1_in"
                 }
             ],
-            "hash": "d004ec135ba232bc46d57bb8ddd1fcc421c4116a",
+            "hash": "968540c13c1151c3d8da79c740e5f2976b9c444a",
             "nodes": {
                 "0": {
                     "data": {
@@ -58,7 +58,7 @@
                 "2": {
                     "data": {
                         "advanced": {
-                            "description": "Initial config",
+                            "description": "2nd change in ui",
                             "join": []
                         },
                         "customFunction": {
@@ -111,7 +111,7 @@
         "schema": "5.0.12",
         "version": "6.2.2.134"
     },
-    "create_time": "2024-10-23T07:08:25.498364+00:00",
+    "create_time": "2024-10-23T07:11:19.418696+00:00",
     "draft_mode": false,
     "labels": [
         "*"
